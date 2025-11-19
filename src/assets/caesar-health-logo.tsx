@@ -4,9 +4,6 @@ export function CaesarHealthLogo({ className }: { className?: string }) {
       src="/images/caesar-health-simplified.svg"
       alt="Caesar Health"
       className={className}
-      style={{
-        filter: 'drop-shadow(0 2px 4px rgba(255, 118, 0, 0.2))',
-      }}
     />
   )
 }

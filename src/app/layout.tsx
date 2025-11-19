@@ -26,6 +26,16 @@ export const metadata: Metadata = {
     'automated medical workflows',
   ],
   authors: [{ name: 'Caesar Health' }],
+  icons: {
+    icon: [
+      { url: '/images/caesar-health-simplified.svg', type: 'image/svg+xml' },
+      { url: '/images/caesar-health-simplified.svg', sizes: 'any' },
+    ],
+    apple: [
+      { url: '/images/caesar-health-simplified.svg', sizes: '180x180' },
+    ],
+    shortcut: '/images/caesar-health-simplified.svg',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
@@ -36,7 +46,7 @@ export const metadata: Metadata = {
       'AI-first healthcare platform streamlining medical workflows with automated clinical documentation, care coordination, and EMR integration.',
     images: [
       {
-        url: '/images/caesar-health-simplified.svg',
+        url: '/images/caesar_health_logo.png',
         width: 1200,
         height: 630,
         alt: 'Caesar Health - AI-Powered Healthcare Platform',
@@ -48,7 +58,7 @@ export const metadata: Metadata = {
     title: 'Caesar Health - AI-Powered Healthcare Administration Platform',
     description:
       'AI-first healthcare platform streamlining medical workflows with automated clinical documentation, care coordination, and EMR integration.',
-    images: ['/images/caesar-health-simplified.svg'],
+    images: ['/images/og-image.png'],
   },
   robots: {
     index: true,
@@ -71,18 +81,6 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        {/* Favicons */}
-        <link
-          rel="icon"
-          type="image/svg+xml"
-          href="/images/caesar-health-simplified.svg"
-        />
-        <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.png" />
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/images/favicon.png"
-        />
         {/* Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />

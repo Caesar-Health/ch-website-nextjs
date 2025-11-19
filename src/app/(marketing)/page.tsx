@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     url: 'https://caesarhealth.com',
     images: [
       {
-        url: '/images/caesar-health-simplified.svg',
+        url: '/images/caesar_health_logo.png',
         width: 1200,
         height: 630,
         alt: 'Caesar Health - AI Healthcare Platform',
